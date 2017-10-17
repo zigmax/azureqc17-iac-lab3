@@ -1,0 +1,23 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "Maxime"
+    },
+    "adminPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/Replace_By_ID_Subscription/resourceGroups/RG-AzureKeyVaultMaxime/providers/Microsoft.KeyVault/vaults/AzureKeyVaultMaxime"
+         },
+        "secretName": "PasswordVM"
+      }
+    },
+    "dnsLabelPrefix": {
+      "value": "testMaxAzureQC"
+    },
+    "windowsOSVersion": {
+      "value": "2012-R2-Datacenter"
+    }
+  }
+}
