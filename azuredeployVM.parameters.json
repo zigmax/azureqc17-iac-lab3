@@ -6,10 +6,6 @@
       "value": "Maxime"
     },
     "adminPassword": {
-      "reference": {
-        "keyVault": {
-          "id": "/subscriptions/Replace_By_ID_Subscription/resourceGroups/RG-AzureKeyVaultMaxime/providers/Microsoft.KeyVault/vaults/AzureKeyVaultMaxime"
-         },
         "secretName": "PasswordVM"
       }
     },
