@@ -6,7 +6,7 @@
       "value": "Maxime"
     },
     "adminPassword": {
-        "secretName": "PasswordVM"
+        "value": "PasswordVM"
       }
     },
     "dnsLabelPrefix": {
