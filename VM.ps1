@@ -6,10 +6,10 @@
 New-AzureRmResourceGroup -Name RG-TEST -Location "West US 2"
 
 #-- Tester avant de deployer
-Test-AzureRmResourceGroupDeployment -ResourceGroupName RG-Test -TemplateFile .\azuredeployVM.json -TemplateParameterFile .\azuredeployVM.parameters.json
+Test-AzureRmResourceGroupDeployment -ResourceGroupName RG-Test -TemplateFile .\azuredeploy.json -TemplateParameterFile .\azuredeploy.parameters.json
 
 #-- Deployer la VM 
-New-AzureRmResourceGroupDeployment -ResourceGroupName RG-Test -TemplateFile .\azuredeployVM.json -TemplateParameterFile .\azuredeployVM.parameters.json
+New-AzureRmResourceGroupDeployment -ResourceGroupName RG-Test -TemplateFile .\azuredeploy.json -TemplateParameterFile .\azuredeploy.parameters.json
 
 
 ##-- FlushAll
