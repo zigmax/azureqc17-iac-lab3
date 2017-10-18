@@ -2,6 +2,8 @@
 #= VM Windows a partir d'un modele ARM
 #= Fonctionne avec Azure Cloud Shell (PowerShell)
 
+Login-AzureRMAccount
+
 #-- Creer un resource Group pour deployer la VM
 New-AzureRmResourceGroup -Name RG-TEST -Location "West US 2"
 
