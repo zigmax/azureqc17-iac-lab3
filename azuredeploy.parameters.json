@@ -3,13 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "Maxime"
+      "value": "qcazureadmin"
     },
     "adminPassword": {
-      "value": "QuebecAzureMeetup!"
+      "value": "QuebecMeetupAzure!"
     },
     "dnsLabelPrefix": {
-      "value": "GEN-MaxAzureQC"
+      "value": "demomax"
+    },
+    "windowsOSVersion": {
+      "value": "2016-Datacenter"
     }
   }
 }
